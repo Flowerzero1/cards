@@ -40,7 +40,7 @@ button, p {
   outline-offset: 3px;
 }
 
-.cards {
+.container {
   min-height: 100vh;
   padding: 4rem 2rem;
   display: -webkit-box;
@@ -59,7 +59,7 @@ button, p {
 }
 
 @media screen and (max-width: 860px) {
-  .cards {
+  .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -67,7 +67,7 @@ button, p {
   }
 }
 
-.card {
+.container {
   padding: 4rem;
   max-width: 27.5rem;
   color: #fff;

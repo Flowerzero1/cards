@@ -185,7 +185,7 @@ button, p {
 }
 
 @media screen and (max-width: 300px) {
-  .cards {
+  .container {
     padding: 4rem 1rem;
   }
 }
